@@ -1,0 +1,96 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <title>ФИИТ</title>
+</head>
+<body>
+<div class="container pagesIntro">
+    <div class="row">
+        <div class="col-md-5 col-lg-6 Link">
+            <a href="/" class="mainLink">CSIT-АБИТУРИЕНТ</a>
+
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <h2 class="H2-pages fiit-color">Фундоментальная информатика и информационные технологии</h2>
+        </div>
+        <div class="col-md-4 col-lg-6 d-none d-md-block img-fluid logoCol">
+            <img class="pageLogo img-fluid" src="{% static 'main/images/fiit.png' %}">
+        </div>
+
+    </div>
+</div>
+
+
+<div class="exams">
+    <div class="title">
+        <h1 class="examTitle text-center">Что сдавать?</h1>
+    </div>
+    <div class="container content">
+
+
+        <div class="examContent">
+            <p class="examDescription">
+                Русский язык, математика (профиль), информатика
+            </p>
+            <p class="examDescription">
+                Проходной балл в 2021 году: 258
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="description">
+    <div class="container content">
+        <div class="title">
+            <h1 class="examTitle text-center">Чем я буду заниматься?</h1>
+        </div>
+
+        <div class="descriptionContent">
+            <p class="doDescription">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+
+            <p class="doDescription">Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+
+            <p class="doDescription" >Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+            <p class="doDescription">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+            <p class="doDescription">Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный риторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</pdoDescription>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="interviews">
+    <div class="container">
+        <div class="title">
+            <h1 class="examTitle text-center">Интервью со студентами</h1>
+        </div>
+
+        <div class="interview-video">
+            <video src="{% static 'main/videos/example.mp4' %}" controls="controls"></video>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+<script src="assets/js/script.js"></script>
+</html>
