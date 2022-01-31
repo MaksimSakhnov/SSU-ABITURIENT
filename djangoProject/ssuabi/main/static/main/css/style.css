@@ -40,9 +40,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 48.1451px;
-    line-height: 56px;
+    font-size: 40px;
+    line-height: 60px;
     color: #FFFFFF;
+
+    font-size: calc(24px + 40 * (100vw / 1440));
 
 
 
@@ -71,9 +73,11 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     color: #FFFFFF;
 
-    transform: translate(0px, 120%);
+    font-size: calc(20px + 35 * (100vw / 1440));
+
+    transform: translate(0px, 0px);
     opacity: 0;
-    transition: all 0.8s ease 0s;
+    transition: all 1s ease 0s;
 }
 
 .title-h2._active{
@@ -97,7 +101,7 @@ h1,h2,h3,h4,h5,h6{
 /*стили карточек */
 .sections{
     width: 100%;
-    height: 105vh;
+    height: 100%;
     background-color : #FFFCFC;
     background-size: cover;
 }
@@ -133,9 +137,9 @@ a:hover {
     margin-top: 40px;
     background: #FFFCFC;
 
-    transform: translate(0px, 105%);
+    transform: translate(0px, 0px);
     opacity: 0;
-    transition: all 0.5s ease 0s;
+    transition: all 1s ease 0s;
 }
 
 .card._active{
@@ -287,4 +291,52 @@ a:hover {
 
 .title{
     padding-top: 60px;
+}
+
+
+
+/*footer*/
+.footer{
+    height: 105%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.r-line{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+.footer-text{
+    font-size: calc(8px + 12 * (100vw / 1440));
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    margin: 5% auto 0 auto;
+    text-align: center;
+
+}
+.icon-row{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon{
+    max-width: 30px;
+    height: auto;
+    margin: 5% 5% 0 5%;
+
+}
+
+.vk{
+    max-width: 50px;
+    height: auto;
+}
+
+.inst{
+    max-width: 60px;
+    height: auto;
 }

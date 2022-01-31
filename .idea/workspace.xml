@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d2dd0c7-4aff-4402-8918-edb6749876af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/ssuabi/main/templates/main/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/ssuabi/main/templates/main/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/ssuabi/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/ssuabi/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/ssuabi/main/static/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/ssuabi/main/static/main/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,5 +41,8 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
 </project>
