@@ -28,23 +28,29 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
 }
 
+.intro-text{
+    display: block;
+    margin: 0 auto;
+}
+
+.intro-text2{
+    display: block;
+    margin: 0 auto;
+}
+
 .title-h1{
     /* CSIT - АБИТУРИЕНТ */
 
 
-    position: absolute;
-    left: 10.28%;
-    right: 57.99%;
-    top: 21.94%;
-    bottom: 72.6%;
+    margin: 10vh 20vw 0 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+
     line-height: 60px;
     color: #FFFFFF;
 
-    font-size: calc(24px + 40 * (100vw / 1440));
+    font-size: calc(15px + 25 * (100vw / 1440));
 
 
 
@@ -57,15 +63,11 @@ h1,h2,h3,h4,h5,h6{
 .title-h2{
     /* Твой личный гайд в выборе направления */
 
+    margin: 10vh 0 0 0;
 
-    position: absolute;
-    left: 10.28%;
-    right: 57.99%;
-    top: 71.61%;
-    bottom: 17.1%;
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 30px;
     line-height: 50px;
     /* or 167% */
@@ -73,7 +75,7 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     color: #FFFFFF;
 
-    font-size: calc(20px + 35 * (100vw / 1440));
+    font-size: calc(12px + 20 * (100vw / 1440));
 
     transform: translate(0px, 0px);
     opacity: 0;
@@ -91,7 +93,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .mainLogo{
     display: block;
-    margin-top: 25vh;
+    margin-top: 15vh;
     max-width:100%;
     height:auto;
 
@@ -153,7 +155,7 @@ a:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 21px;
     color: #000000;
 }
@@ -163,7 +165,7 @@ a:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     margin-top: 20px;
     color: #A2A2A2;
