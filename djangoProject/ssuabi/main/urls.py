@@ -12,7 +12,9 @@ urlpatterns = [
 
     path('piPage', views.piPage),
 
-    path('moaisPage',views.moaisPage),
+    path('moaisPage', views.moaisPage),
 
-    path('siPage',views.siPage)
+    path('siPage', views.siPage),
+
+    path('ish', views.ish)
 ]

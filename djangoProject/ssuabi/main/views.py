@@ -29,3 +29,6 @@ def siPage(request):
     return render(request, 'main/siPage.html')
 
 
+def ish(request):
+    return render(request, 'main/ish.html')
+

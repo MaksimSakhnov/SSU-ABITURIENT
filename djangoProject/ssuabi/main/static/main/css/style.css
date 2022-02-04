@@ -19,7 +19,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-
+.video{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
 
 .intro{
     width: 100%;
@@ -136,12 +141,15 @@ a:hover {
 
 .card{
     border: none;
+    margin: 0 auto;
     margin-top: 40px;
     background: #FFFCFC;
 
     transform: translate(0px, 0px);
     opacity: 0;
     transition: all 1s ease 0s;
+
+
 }
 
 .card._active{
@@ -334,17 +342,68 @@ a:hover {
 }
 
 .interviews{
-    height: 100vh;
+    height: 105%;
     width: auto;
-    background-color: #F5F5F5;
+    background-color: #FFFDFD;
+}
+
+.interviewRow{
+    margin-top: 5vh;
+}
+
+.interviewRow2{
+    margin-top: 15vh;
+
+    margin-bottom: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+
+.interview-videoBlock{
+    position: relative;
+    max-width: 650px;
+    height: 100%;
+
 }
 
 .interview-video{
-    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+
+
 }
+
 
 .title{
     padding-top: 60px;
+}
+
+.studentComment{
+    max-width: 456px;
+    height: 100%;
+    padding: 0;
+    border: 2px solid black; /* Параметры границы */
+    background: none;
+    margin-bottom: 10vh;
+}
+
+.studentName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    margin-top: 5%;
+}
+
+.studentCommentCode{
+    margin: 5% 0 5% 10%;
 }
 
 
