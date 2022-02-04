@@ -216,6 +216,7 @@ a:hover {
     line-height: 50px;
     text-align: center;
     text-decoration: none;
+    margin-top: -10vh;
     display: flex;
     align-items: center;
     justify-content: center
@@ -226,7 +227,7 @@ a:hover {
 
 .pageLogo{
     display: block;
-    margin-top: 15vh;
+    margin-top: 7vh;
     max-width:100%;
     height:auto;
     /*
