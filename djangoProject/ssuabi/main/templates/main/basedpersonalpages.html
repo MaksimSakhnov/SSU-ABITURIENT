@@ -14,23 +14,29 @@
     <title>{% block title %}{% endblock%}</title>
 </head>
 <body>
-<div class="container pagesIntro">
-    <div class="row">
-        <div class="col-md-5 col-lg-6 Link">
-            <a href="/" class="mainLink">CSIT-АБИТУРИЕНТ</a>
+   <div class="pagesIntro">
+       <div class="container">
+           <div class="row row-cols-auto">
+               <div class="col-md-5 col-sm-5 col-xs-5 pagesIntro-link">
+                   <a href="/" class="pagesIntro-text">CSIT-АБИТУРИЕНТ</a>
 
 
-        </div>
+               </div>
 
 
-    </div>
-    <div class="row">
-        {% block name_direction %}{% endblock %}
+               {% block logo %}{% endblock %}
 
-        {% block logo %}{% endblock %}
+               {% block name_direction %}{% endblock %}
+               <div class="col-md-7 ">
 
-    </div>
-</div>
+               </div>
+
+           </div>
+
+
+
+       </div>
+   </div>
 
 
 <div class="exams">
@@ -69,14 +75,15 @@
         <div class="title">
             <h1 class="examTitle text-center">Интервью со студентами</h1>
         </div>
-
-        <div class="interview-video">
-           {% block video %}{% endblock%} %}"
-        </div>
+        <div class="row row-cols-auto">
+               <div class="col-md-5 col-sm-5 col-xs-5">
+                   <div class="interview-video">
+                       {% block video %}{% endblock%}
+                   </div>
+               </div>
+           </div>
     </div>
-
 </div>
-
 
 </body>
 

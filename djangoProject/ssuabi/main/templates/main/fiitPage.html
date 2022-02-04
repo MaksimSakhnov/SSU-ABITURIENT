@@ -6,15 +6,16 @@
 ФИИТ
 {% endblock title%}
 
-{% block name_direction %}
-    <div class="col-md-5">
-        <h2 class="H2-pages fiit-color">Фундаментальная информатика и информационные технологии</h2>
+{% block logo %}
+    <div class="col-md-7 logo">
+        <img class="pageLogo img-fluid" src="{% static 'main/images/fiitLogo_page.png' %}">
     </div>
 {% endblock%}
 
-{% block logo %}
-    <div class="col-md-4 col-lg-6 d-none d-md-block img-fluid logoCol">
-        <img class="pageLogo img-fluid" src="{% static 'main/images/fiitLogo_page.png' %}">
+{% block name_direction %}
+    <div class="col-md-5 col-sm-5 col-xs-5 pagesIntro-link">
+        <h2 class="H2-pages fiit-color">Фундаментальная информатика и</h2>
+        <h2 class="H2-pages fiit-color">информационные технологии</h2>
     </div>
 {% endblock%}
 

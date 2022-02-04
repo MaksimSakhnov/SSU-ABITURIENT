@@ -178,18 +178,25 @@ a:hover {
 
 
 
-/* ФИИТ */
+/* Персональные странички */
+
 .pagesIntro{
     height: 100vh;
     width: auto;
+}
 
-}
-.Link{
+.pagesIntro-link{
+    padding: 100px 0px 0px 0px;
     margin-top: 15vh;
+    display: block;
+    margin: 0 auto;
 }
-.mainLink{
+
+
+.pagesIntro-text{
+    /* CSIT - АБИТУРИЕНТ */
+
     font-family: Roboto;
-    font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: 50px;
@@ -200,22 +207,55 @@ a:hover {
     font-size: calc(24px + 16 * (100vw / 1440));
 
     box-sizing: border-box;
-
 }
 
 .H2-pages{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: calc(24px + 36 * (100vw / 1440));
-
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
     display: flex;
     align-items: center;
-
-    margin-top: 20vh;
-
+    justify-content: center
+    color: #000000;
+    font-size: calc(12px + 40 * (100vw / 1440));
+    box-sizing: border-box;
 }
 
+.pageLogo{
+    display: block;
+    margin-top: 15vh;
+    max-width:100%;
+    height:auto;
+    /*
+      1.выровнить посередине контейнера пэйджлога
+      2. сделать отступ для mainlink сверху
+    */
+}
+/*.title-h2{
+    /* Твой личный гайд в выборе направления
+
+    margin: 10vh 0 0 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 167%
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    font-size: calc(12px + 20 * (100vw / 1440));
+
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}*/
+/*ЦВЕТА*/
 .kb-color{
     color: #FF4588;
 }
@@ -232,17 +272,16 @@ a:hover {
 .si-color{
     color: #459BFF
 }
-.moais-color    {
+.moais-color{
     color: #FF4588
 }
-
 
 .logoCol{
 
 }
 
 
-
+/*Что сдавать?*/
 .exams{
     width: 100%;
     height: 400px;
@@ -250,11 +289,6 @@ a:hover {
     background-size: cover;
 }
 
-.pageLogo{
-    margin-top: 20vh;
-    margin-left: 20vh;
-    box-sizing: border-box;
-}
 
 .exams{
     max-height: 400px;
