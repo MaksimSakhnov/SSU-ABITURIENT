@@ -1,183 +1,68 @@
+{% extends 'main/basedpersonalpages.html' %}
+
 {% load static %}
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
-    <title>{% block title %}{% endblock%}</title>
-</head>
-<body>
-<div class="pagesIntro">
-    <div class="container">
-        <div class="row row-cols-auto">
-            <div class="col-md-5 col-sm-5 col-xs-5 pagesIntro-link">
-                <a href="/" class="pagesIntro-text">CSIT-АБИТУРИЕНТ</a>
 
+{% block title %}
+ФИИТ
+{% endblock title%}
 
-            </div>
-
-
-
-            <div class="col-md-7 logo">
-                <img class="pageLogo img-fluid" src="{% static 'main/images/fiitLogo_page.png' %}">
-            </div>
-
-
-            <div class="col-md-5 col-sm-5 col-xs-5 pagesIntro-link">
-                <h2 class="H2-pages fiit-color">Фундаментальная информатика и информационные технологии</h2>
-            </div>
-            <div class="col-md-7 ">
-
-            </div>
-
-        </div>
-
-
-
+{% block logo %}
+    <div class="col-md-7 col-sm-5 col-xs-5 logo">
+        <img class="pageLogo img-fluid" src="{% static 'main/images/fiitLogo_page.png' %}">
     </div>
-</div>
+{% endblock%}
 
-
-<div class="exams">
-    <div class="title">
-        <h1 class="examTitle text-center">Что сдавать?</h1>
+{% block name_direction %}
+    <div class="col-md-6 col-sm-5 col-xs-5 pagesIntro-link">
+        <h2 class="H2-pages fiit-color">Фундаментальная информатика и информационные технологии</h2>
     </div>
-    <div class="container content">
+{% endblock%}
 
+{% block egepoints%}
+258
+{%endblock%}
 
-        <div class="examContent">
-            <p class="examDescription">
-                Русский язык, математика (профиль), информатика
-            </p>
-            <p class="examDescription">
-                Проходной балл в 2021 году: {% block egepoints %}{% endblock%}
-            </p>
-        </div>
+{% block info%}
+    <div class="descriptionContent">
+        <p class="doDescription">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+
+        <p class="doDescription">Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+
+        <p class="doDescription" >Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+        <p class="doDescription">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+        <p class="doDescription">Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный риторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p></pdoDescription>
     </div>
-</div>
+{% endblock%}
 
-<div class="description">
-    <div class="container content">
-        <div class="title">
-            <h1 class="examTitle text-center">Чем я буду заниматься?</h1>
-        </div>
+{% block avatar1%}
+<img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
+{% endblock%}
 
-        <div class="descriptionContent">
-            <p class="doDescription">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+{% block name1%}
+<h3 class="studentName">Студент 1 курса фиит Иванов Иван Иванович</h3>
+{%endblock%}
 
-            <p class="doDescription">Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+{% block comment1 %}
+<img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
+{%endblock%}
 
-            <p class="doDescription" >Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+{% block video1 %}
+<source src="{% static 'main/videos/example.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+{% endblock %}
 
-            <p class="doDescription">Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+{% block video2 %}
+<source src="{% static 'main/videos/example.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+{% endblock %}
 
-            <p class="doDescription">Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный риторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p></pdoDescription>
-        </div>
+{% block avatar2 %}
+<img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
+{% endblock%}
 
-    </div>
-
-</div>
-
-
-<div class="interviews">
-    <div class="container">
-        <div class="title">
-            <h1 class="examTitle text-center">Интервью со студентами</h1>
-        </div>
-
-        <div class="row interviewRow">
-            <div class="col-md-5 col-lg-5 col-xl-5 studentComment">
-                <div class="row">
-                    <div class="col">
-                        <img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
-                    </div>
-
-                    <div class="col">
-                        <h3 class="studentName">Студент 1 курса фиит Иванов Иван Иванович</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-md-7 interview-videoBlock">
-                    <video controls="controls" class="interview-video">
-                        <source src="{% static 'main/videos/example.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-
-                    </video>
-            </div>
-        </div>
-
-        <div class="row interviewRow2">
-            <div class="col-md-7 interview-videoBlock order-md-1 order-2">
-                <video controls="controls" class="interview-video">
-                    <source src="{% static 'main/videos/example.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-
-                </video>
-            </div>
-
-
-            <div class="col-md-5 col-lg-5 col-xl-5 studentComment order-md-2 order-1">
-                <div class="row">
-                    <div class="col">
-                        <img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
-                    </div>
-
-                    <div class="col">
-                        <h3 class="studentName">Студент 4 курса фиит Александров Александр Александрович</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-</div>
-
-<div class="footer">
-    <div class="container footer-con">
-        <div class="row">
-            <hr class="r-line">
-        </div>
-        <div class="row">
-            <h3 class="footer-text">Иллюстрации, дизайн, верстка: Сахнов Максим, Евгений Таран <br> Видео: Денис Перфилов</h3>
-
-        </div>
-        <div class="row">
-            <h3 class="footer-text">Мы в социальных сетях</h3>
-        </div>
-        <div class="row icon-row">
-            <a href="https://vk.com/sgu_kniit" class="footer-icon vk">
-                <img src="{% static 'main/images/vk-icon.svg' %}" class alt="">
-            </a>
-            <a href="https://www.instagram.com/your__honey/" class="footer-icon inst">
-                <img src="{% static 'main/images/instagram.svg' %}" class alt="">
-            </a>
-
-        </div>
-    </div>
-
-</div>
-
-
-
-</body>
-
-<script src="assets/js/script.js"></script>
-</html>
+{% block name2%}
+<h3 class="studentName">Студент 4 курса ФИиИТ Иванов Иван Иванович</h3>
+{%endblock%}
+{% block comment2 %}
+<img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
+{% endblock %}

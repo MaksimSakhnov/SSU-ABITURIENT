@@ -94,7 +94,8 @@ h1,h2,h3,h4,h5,h6{
 .logo{
     display: block;
     margin: 0 auto;
-
+    max-width:100%;
+    height:auto;
 }
 .mainLogo{
     display: block;
@@ -166,6 +167,7 @@ a:hover {
     font-size: 20px;
     line-height: 21px;
     color: #000000;
+    text-align: match-parent;
 }
 
 .card-profile{
@@ -194,10 +196,11 @@ a:hover {
 }
 
 .pagesIntro-link{
-    padding: 100px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
     margin-top: 15vh;
     display: block;
     margin: 0 auto;
+    margin-left: 5vh;
 }
 
 
@@ -222,20 +225,20 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 50px;
-    text-align: center;
+    text-align: match-parent;
     text-decoration: none;
-    margin-top: -10vh;
+    margin: 0 auto;
+    margin-top: -35vh;
     display: flex;
-    align-items: center;
-    justify-content: center
     color: #000000;
-    font-size: calc(12px + 40 * (100vw / 1440));
+    font-size: calc(12px + 30 * (100vw / 1440));
     box-sizing: border-box;
 }
 
 .pageLogo{
     display: block;
-    margin-top: 7vh;
+    margin-top: 30vh;
+    margin-left: 55vh;
     max-width:100%;
     height:auto;
     /*

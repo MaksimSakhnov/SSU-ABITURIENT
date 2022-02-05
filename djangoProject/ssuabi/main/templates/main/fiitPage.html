@@ -7,13 +7,13 @@
 {% endblock title%}
 
 {% block logo %}
-    <div class="col-md-7 logo">
+    <div class="col-md-7 col-sm-5 col-xs-5 logo">
         <img class="pageLogo img-fluid" src="{% static 'main/images/fiitLogo_page.png' %}">
     </div>
 {% endblock%}
 
 {% block name_direction %}
-    <div class="col-md-5 col-sm-5 col-xs-5 pagesIntro-link">
+    <div class="col-md-6 col-sm-5 col-xs-5 pagesIntro-link">
         <h2 class="H2-pages fiit-color">Фундаментальная информатика и информационные технологии</h2>
     </div>
 {% endblock%}
@@ -36,6 +36,34 @@
     </div>
 {% endblock%}
 
-{% block video%}
-<video src="{% static 'main/videos/sdaiege1.mp4' %}" controls="controls"></video>
+{% block avatar1%}
+<img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
 {% endblock%}
+
+{% block name1%}
+<h3 class="studentName">Студент 1 курса ФИиИТ Иванов Иван Иванович</h3>
+{%endblock%}
+
+{% block comment1 %}
+<img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
+{%endblock%}
+
+{% block video1 %}
+<source src="{% static 'main/videos/example.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+{% endblock %}
+
+{% block video2 %}
+<source src="{% static 'main/videos/sdaiege.mp4' %}" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+{% endblock %}
+
+{% block avatar2 %}
+<img src="{% static 'main/images/avatarExample.png' %}" alt="" class="studentPhoto">
+{% endblock%}
+
+{% block name2%}
+<h3 class="studentName">Студент 4 курса ФИиИТ Иванов Иван Иванович</h3>
+{%endblock%}
+
+{% block comment2 %}
+<img src="{% static 'main/images/commentExample.png' %}" alt="" class="studentCommentCode">
+{% endblock %}
