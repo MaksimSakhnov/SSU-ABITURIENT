@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6{
 .title-h2{
     /* Твой личный гайд в выборе направления */
 
-    margin: 5vh 0 0 0;
+    margin: 10vh 0 0 0;
 
     font-family: Roboto;
     font-style: normal;
@@ -195,7 +195,7 @@ a:hover {
 
 .pagesIntro-link{
     padding: 100px 0px 0px 0px;
-    margin-top: 25vh;
+    margin-top: 15vh;
     display: block;
     margin: 0 auto;
 }
@@ -222,23 +222,20 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 50px;
-    text-align: match-parent;
+    text-align: center;
     text-decoration: none;
-    margin: 0 auto;
     margin-top: -10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
     color: #000000;
     font-size: calc(12px + 40 * (100vw / 1440));
     box-sizing: border-box;
-
 }
 
 .pageLogo{
     display: block;
-    margin: 0 auto;
-    margin-top: 25vh;
+    margin-top: 7vh;
     max-width:100%;
     height:auto;
     /*
