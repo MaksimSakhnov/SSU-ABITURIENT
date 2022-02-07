@@ -49,12 +49,10 @@
 
 
         <div class="examContent">
-            <p class="examDescription">
-                Русский язык, математика (профиль), информатика
-            </p>
-            <p class="examDescription">
+            <h3 class="examDescription">
+                Русский язык, математика (профиль), информатика<br>
                 Проходной балл в 2021 году: {% block egepoints %}{% endblock%}
-            </p>
+            </h3>
         </div>
     </div>
 </div>
@@ -135,6 +133,39 @@
 
     </div>
 </div>
+
+
+   <div class="footer">
+       <div class="container footer-con">
+           <div class="row">
+               <hr class="r-line">
+           </div>
+           <div class="row">
+               <h3 class="footer-text">Иллюстрации, текст, верстка: Сахнов Максим, Евгений Таран <br> Съемка: Денис Перфилов</h3>
+           </div>
+
+           <div class="row">
+               <h3 class="footer-text">Мы в социальных сетях</h3>
+           </div>
+           <div class="row icon-row">
+               <a href="https://www.sgu.ru/structure/computersciences" class="footer-icon">
+                   <img src="{% static 'main/images/sgu-icon.png' %}" class="icon" alt="">
+               </a>
+
+               <a href="https://vk.com/sgu_kniit" class="footer-icon">
+                   <img src="{% static 'main/images/vk-icon.png' %}" class="icon" alt="">
+               </a>
+               <a href="https://www.instagram.com/your__honey/" class="footer-icon">
+                   <img src="{% static 'main/images/inst-icon.png' %}" class="icon" alt="">
+               </a>
+
+           </div>
+       </div>
+
+   </div>
+
+
+
 
 </body>
 

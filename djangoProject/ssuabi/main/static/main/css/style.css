@@ -18,6 +18,10 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+.container{
+    padding: 0 5% 0 5%;
+}
+
 
 .video{
     display: block;
@@ -248,7 +252,7 @@ a:hover {
     align-items: match-parent;
     color: #FFFFFF;
 
-    font-size: calc(12px + 45 * (100vw / 1440));
+    font-size: calc(18px + 30 * (100vw / 1440));
     line-height:100%;
 }
 
@@ -289,7 +293,7 @@ a:hover {
 
 
 .exams{
-    max-height: 400px;
+    max-height: 100%;
     width: auto;
     background-color: #F5F5F5;
 }
@@ -298,7 +302,7 @@ a:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: calc(18px + 30 * (100vw / 1440));
     line-height: 47px;
     display: flex;
     align-items: center;
@@ -311,12 +315,12 @@ a:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: calc(12px + 20 * (100vw / 1440));
+    line-height: calc(15px + 25 * (100vw / 1440));
     display: flex;
     align-items: center;
-    margin-top: 60px;
-    font-size: calc(10px + 20 * (100vw / 1440));
+    margin-top: 5%;
+
 }
 
 .doDescription{
@@ -429,9 +433,14 @@ a:hover {
 .footer-icon{
     max-width: 30px;
     height: auto;
-    margin: 5% 5% 0 5%;
+    margin: 3% auto 0 auto;
 
 }
+.icon{
+    width:30px;
+    height:30px;
+}
+
 
 .vk{
     max-width: 50px;
