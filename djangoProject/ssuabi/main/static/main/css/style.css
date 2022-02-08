@@ -35,7 +35,6 @@ h1,h2,h3,h4,h5,h6{
     height: 100vh;
     background-color : #1F1F1F;
     background-size: cover;
-    padding-bottom: 10%;
 }
 
 .intro-text{
@@ -46,7 +45,6 @@ h1,h2,h3,h4,h5,h6{
 .intro-text2{
     display: block;
     margin: 0 auto;
-    margin-bottom: 5%;
 }
 
 .title-h1{
