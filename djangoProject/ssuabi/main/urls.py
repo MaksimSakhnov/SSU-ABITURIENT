@@ -4,6 +4,8 @@ from . import views
 urlpatterns = [
     path('', views.index),
 
+    path('index', views.index),
+
     path('ivtPage', views.ivtPage),
 
     path('fiitPage', views.fiitPage),
@@ -16,5 +18,7 @@ urlpatterns = [
 
     path('siPage', views.siPage),
 
-    path('ish', views.ish)
+    path('ish', views.ish),
+
+    path('pedPage', views.pedPage)
 ]

@@ -32,3 +32,8 @@ def siPage(request):
 def ish(request):
     return render(request, 'main/ish.html')
 
+
+
+def pedPage(request):
+    return render(request, 'main/pedPage.html')
+
